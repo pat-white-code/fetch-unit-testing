@@ -9,12 +9,23 @@
 </head>
 <body>
   <main>
-    <input type="text" id="input">
+    <input type="text" id="abv_gt" placeholder="minimum ABV">
+    <!-- <input type="text" id="input"> -->
     <input type="submit" id="submit">
-    <h1> Name : <span id="name"></span></h1>
-    <h2> Abv : <span id="abv"></span></h2>
-    <div id=img-container></div>
-    <p> Description: <span id="desc"></span></p>
+
+    <section id="beers" class="beers">
+      <div class="beer-card">
+        <div class="img-container">
+          <img class="beer-img" src="https://images.punkapi.com/v2/7.png">
+        </div>
+        <div class="info-container">
+          <h1>Beer Name</h1>
+          <h2> ABV: too much for you to handle</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga debitis amet quaerat optio veniam rerum, placeat numquam dicta suscipit perferendis culpa dolorem unde eius, laboriosam molestias quidem. Repudiandae, eius dolore?</p>
+        </div>
+      </div>
+
+    </section>
   </main> 
   <script src="app.js"></script>
 </body>
