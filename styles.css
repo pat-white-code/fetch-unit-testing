@@ -16,13 +16,7 @@ main {
   border:1px red solid;
 }
 
-.img-container {
-  border:1px red solid;
-  height: 300px;
-}
-
 .beer-img {
-  border:1px red solid;
   max-height: 200px;
 }
 
